@@ -30,13 +30,15 @@ Same as #3, but I added a column for the standard deviation of the RGB values. T
 
 ## Other Notes on Software:
 
-1. I added automation to process multiple files in a single run. Place any image you want to process into a folder called 'images' in the source folder and the program will run all files through the program.
+1. The 'images' file in this repository contains a few of the logos I've tried so far, with varying success.
 
-2. The program also loops through all the algorithms. There is a list in the source that can be modified to run any combination of the algorithms.
+2. I added automation to process multiple files in a single run. Place any image you want to process into a folder called 'images' in the source folder and the program will run all files through the program.
 
-3. The machine learning algorithm assigns an arbitrary 0 or 1 to the files and I do not currently have a way to determine which color belongs to which designation. To get around this, I simply generate two files, one being the inverse of the other.
+3. The program also loops through all the algorithms. There is a list in the source that can be modified to run any combination of the algorithms.
 
-4. I am still trying to solve an issue with transparency. The program does not work well if the logo has a transparent background. I am working on a fix for this, but for now I have to manually go into the image file and add a white pixel in the upper left corner which seems to "break the transparency". This seems to allow the algorithm to run as expected for the moment.
+4. The machine learning algorithm assigns an arbitrary 0 or 1 to the files and I do not currently have a way to determine which color belongs to which designation. To get around this, I simply generate two files, one being the inverse of the other.
+
+5. I am still trying to solve an issue with transparency. The program does not work well if the logo has a transparent background. I am working on a fix for this, but for now I have to manually go into the image file and add a white pixel in the upper left corner which seems to "break the transparency". This seems to allow the algorithm to run as expected for the moment.
 
 ## Wrap Up:
 This initial release was developed in just a few days. I'd like to continue to develop it to see if I can perfect it as I learn some new machine learning tricks, but I wanted to get it uploaded on here. I'm pretty happy with it so far even though it doesn't do the whole job yet. It seems to do a better job than the manual imaging solutions I tried and it's automated...it can process 6 images through 4 algorithms with 2 outputs each in less than a minute. Most importantly, I was able to apply some machine learning to my own application, so all in all this was a good learning experience.
