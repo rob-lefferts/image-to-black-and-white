@@ -40,5 +40,7 @@ Same as #3, but I added a column for the standard deviation of the RGB values. T
 
 5. I am still trying to solve an issue with transparency. The program does not work well if the logo has a transparent background. I am working on a fix for this, but for now I have to manually go into the image file and add a white pixel in the upper left corner which seems to "break the transparency". This seems to allow the algorithm to run as expected for the moment.
 
+6. This program was developed in a Jupyter Notebook and ported over to a Python file, so it is written in a functional manner. I may try to clean it up and rewrite it to be a little more modular.
+
 ## Wrap Up:
 This initial release was developed in just a few days. I'd like to continue to develop it to see if I can perfect it as I learn some new machine learning tricks, but I wanted to get it uploaded on here. I'm pretty happy with it so far even though it doesn't do the whole job yet. It seems to do a better job than the manual imaging solutions I tried and it's automated...it can process 6 images through 4 algorithms with 2 outputs each in less than a minute. Most importantly, I was able to apply some machine learning to my own application, so all in all this was a good learning experience.
